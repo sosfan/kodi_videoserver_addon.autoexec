@@ -1,0 +1,6 @@
+<settings>
+    <category label="Configuraciones Generales">
+        <setting id="mute_while_playing" type="bool" label="Enmutecer audio mientras reproduce" default="true" />
+        <setting id="activate_screensaver" type="bool" label="Activar el Screensaver al estar inactivo" default="true" />
+    </category>
+</settings>

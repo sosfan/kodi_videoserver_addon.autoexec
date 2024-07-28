@@ -1,0 +1,18 @@
+<addon id="plugin.skmjukebox_videoserver" name="SKmJukebox VideoServer" version="1.0.0" provider-name="SKmJukebox">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="server.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Addon para recibir contenido de SKmJukebox a Kodi</summary>
+        <description><![CDATA[
+            AddOn para crear un servidor multimedia compatible con SKmJukebox.
+        ]]></description>
+        <language>es</language>
+        <license>GPL-3.0</license>
+        <assets>
+          <icon>resources/images/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
